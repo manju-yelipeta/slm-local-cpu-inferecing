@@ -1,0 +1,7 @@
+[core]
+    autostage = true
+    remote = ocr_models_remote
+['remote "myremote"']
+    url = s3://your-bucket-name/path
+['remote "ocr_models_remote"']
+    url = s3://dev-sinan-models/ocr-slm-artifacts/
