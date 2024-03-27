@@ -6,6 +6,11 @@ This comprehensive guide walks you through setting up and running the Local AI s
 
 Before you start, ensure that Docker is installed on your system. If Docker is not yet installed, refer to the [official Docker installation guide](https://docs.docker.com/get-docker/).
 
+## once we clone from git, install dvc and do the the following command
+```bash
+dvc pull
+
+This command checks your .dvc files and dvc.lock in the current directory and subdirectories, downloads the data from the remote storage, and places it in your workspace.
 ## Installation Steps
 
 ### Step 1: Pull the Docker Image
